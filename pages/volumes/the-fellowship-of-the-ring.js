@@ -15,7 +15,7 @@ export default function bookDetail() {
         ))}
       </ul>
       <Image
-        src="/images/the-fellowship-of-the-ring.png"
+        src={volume.cover}
         height={230}
         width={140}
         alt="Book cover: The Fellowship of the Ring"

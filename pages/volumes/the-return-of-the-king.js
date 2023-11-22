@@ -15,7 +15,7 @@ export default function bookDetail() {
         ))}
       </ul>
       <Image
-        src="/images/the-return-of-the-king.png"
+        src={volume.cover}
         height={230}
         width={140}
         alt="Book cover: The Return of the King"

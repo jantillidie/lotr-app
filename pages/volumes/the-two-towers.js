@@ -15,7 +15,7 @@ export default function bookDetail() {
         ))}
       </ul>
       <Image
-        src="/images/the-two-towers.png"
+        src={volume.cover}
         height={230}
         width={140}
         alt="Book cover: The Two Towers"
